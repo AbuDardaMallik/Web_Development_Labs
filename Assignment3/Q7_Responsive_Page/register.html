@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form onsubmit="return validateForm();">
+
+  <input type="text" id="fname" placeholder="First Name">
+  <input type="text" id="lname" placeholder="Last Name">
+  <input type="password" id="password" placeholder="Password">
+  <input type="text" id="email" placeholder="Email ID">
+  <input type="text" id="mobile" placeholder="Mobile Number">
+  <textarea id="address" placeholder="Address"></textarea>
+
+  <button type="submit" onclick="showMsg()" class="button">Register</button>
+
+</form>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

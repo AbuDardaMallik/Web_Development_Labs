@@ -1,0 +1,134 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header with Gradient */
+header {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigation */
+nav {
+    background: #2c3e50;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    max-width: 400px;
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Shadow */
+    transition: 0.3s;
+    /* Transition */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Transform */
+}
+
+/* Button */
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+button:hover {
+    background: #764ba2;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media(max-width:600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+body{
+    font-family: Arial, sans-serif;
+    background:#ecf0f1;
+  }
+  
+  h2{
+    text-align:center;
+    margin-top:30px;
+    color:#2c3e50;
+  }
+  
+  form{
+    width:350px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.15);
+  }
+  
+  input, textarea{
+    width:95%;
+    padding:10px;
+    margin:8px 0;
+  }
+  
+  textarea{
+    resize:none;
+    height:80px;
+  }
+  
+  button{
+    width:100%;
+    background:#8e44ad;
+    color:white;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+  }
+  
+  button:hover{
+    background:#6c3483;
+  }
+  

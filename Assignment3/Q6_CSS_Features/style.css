@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.font1 {
+    font-family: Arial;
+}
+
+.font2 {
+    font-family: Georgia;
+}
+
+.font3 {
+    font-family: "Courier New";
+}
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    cursor: crosshair;
+    
+}
+
+a:active {
+    color: orange;
+}
+
+
+.repeat-bg {
+    height: 120px;
+    margin: 15px 0;
+    border: 1px solid #333;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+}
+
+.norepeat-bg {
+    height: 120px;
+    margin: 15px 0;
+    border: 1px solid #333;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login with LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Login Page</h2>
+
+        <div id="loginSection">
+            <input type="text" id="username" placeholder="Enter Username">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div id="welcomeSection" style="display:none;">
+            <h3 id="welcomeMessage"></h3>
+            <button onclick="logout()">Logout</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
